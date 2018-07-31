@@ -1,0 +1,7 @@
+These command must be run in Python Shell
+
+>>> from textblob import TextBlob
+>>> wiki=TextBlob("sid is happy that he always gets good matches on tinder")
+>>> wiki.tags
+>>> wiki.words
+>>> wiki.sentiment.polarity
